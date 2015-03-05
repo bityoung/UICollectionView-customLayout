@@ -12,8 +12,11 @@
 		2FFB15861AA73277006A4E27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFB15851AA73277006A4E27 /* ViewController.m */; };
 		2FFB15891AA73277006A4E27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FFB15871AA73277006A4E27 /* Main.storyboard */; };
 		2FFB158B1AA73277006A4E27 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FFB158A1AA73277006A4E27 /* Images.xcassets */; };
-		2FFB158E1AA73277006A4E27 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FFB158C1AA73277006A4E27 /* LaunchScreen.xib */; };
 		2FFB159A1AA73277006A4E27 /* UICollectionView_customLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFB15991AA73277006A4E27 /* UICollectionView_customLayoutTests.m */; };
+		2FFB15AA1AA73807006A4E27 /* YZCollectionViewLineLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFB15A91AA73807006A4E27 /* YZCollectionViewLineLayout.m */; };
+		2FFB15B31AA874DB006A4E27 /* YZCollectionViewStackLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFB15B21AA874DB006A4E27 /* YZCollectionViewStackLayout.m */; };
+		2FFB15B61AA874FA006A4E27 /* YZCollectionViewCircleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFB15B51AA874FA006A4E27 /* YZCollectionViewCircleLayout.m */; };
+		2FFB15B91AA8776F006A4E27 /* YZCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFB15B81AA8776F006A4E27 /* YZCollectionViewFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +39,17 @@
 		2FFB15851AA73277006A4E27 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2FFB15881AA73277006A4E27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2FFB158A1AA73277006A4E27 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		2FFB158D1AA73277006A4E27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		2FFB15931AA73277006A4E27 /* UICollectionView&customLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UICollectionView&customLayoutTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FFB15981AA73277006A4E27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FFB15991AA73277006A4E27 /* UICollectionView_customLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UICollectionView_customLayoutTests.m; sourceTree = "<group>"; };
+		2FFB15A81AA73807006A4E27 /* YZCollectionViewLineLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZCollectionViewLineLayout.h; sourceTree = "<group>"; };
+		2FFB15A91AA73807006A4E27 /* YZCollectionViewLineLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZCollectionViewLineLayout.m; sourceTree = "<group>"; };
+		2FFB15B11AA874DB006A4E27 /* YZCollectionViewStackLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZCollectionViewStackLayout.h; sourceTree = "<group>"; };
+		2FFB15B21AA874DB006A4E27 /* YZCollectionViewStackLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZCollectionViewStackLayout.m; sourceTree = "<group>"; };
+		2FFB15B41AA874FA006A4E27 /* YZCollectionViewCircleLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZCollectionViewCircleLayout.h; sourceTree = "<group>"; };
+		2FFB15B51AA874FA006A4E27 /* YZCollectionViewCircleLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZCollectionViewCircleLayout.m; sourceTree = "<group>"; };
+		2FFB15B71AA8776F006A4E27 /* YZCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		2FFB15B81AA8776F006A4E27 /* YZCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZCollectionViewFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,8 +97,15 @@
 				2FFB15851AA73277006A4E27 /* ViewController.m */,
 				2FFB15871AA73277006A4E27 /* Main.storyboard */,
 				2FFB158A1AA73277006A4E27 /* Images.xcassets */,
-				2FFB158C1AA73277006A4E27 /* LaunchScreen.xib */,
 				2FFB157D1AA73277006A4E27 /* Supporting Files */,
+				2FFB15B71AA8776F006A4E27 /* YZCollectionViewFlowLayout.h */,
+				2FFB15B81AA8776F006A4E27 /* YZCollectionViewFlowLayout.m */,
+				2FFB15A81AA73807006A4E27 /* YZCollectionViewLineLayout.h */,
+				2FFB15A91AA73807006A4E27 /* YZCollectionViewLineLayout.m */,
+				2FFB15B11AA874DB006A4E27 /* YZCollectionViewStackLayout.h */,
+				2FFB15B21AA874DB006A4E27 /* YZCollectionViewStackLayout.m */,
+				2FFB15B41AA874FA006A4E27 /* YZCollectionViewCircleLayout.h */,
+				2FFB15B51AA874FA006A4E27 /* YZCollectionViewCircleLayout.m */,
 			);
 			path = "UICollectionView&customLayout";
 			sourceTree = "<group>";
@@ -163,6 +180,7 @@
 		2FFB15721AA73277006A4E27 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = YZ;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = yangzhiqiang;
 				TargetAttributes = {
@@ -200,7 +218,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FFB15891AA73277006A4E27 /* Main.storyboard in Resources */,
-				2FFB158E1AA73277006A4E27 /* LaunchScreen.xib in Resources */,
 				2FFB158B1AA73277006A4E27 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,9 +236,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FFB15B31AA874DB006A4E27 /* YZCollectionViewStackLayout.m in Sources */,
+				2FFB15B61AA874FA006A4E27 /* YZCollectionViewCircleLayout.m in Sources */,
 				2FFB15861AA73277006A4E27 /* ViewController.m in Sources */,
 				2FFB15831AA73277006A4E27 /* AppDelegate.m in Sources */,
+				2FFB15B91AA8776F006A4E27 /* YZCollectionViewFlowLayout.m in Sources */,
 				2FFB15801AA73277006A4E27 /* main.m in Sources */,
+				2FFB15AA1AA73807006A4E27 /* YZCollectionViewLineLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,14 +271,6 @@
 				2FFB15881AA73277006A4E27 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2FFB158C1AA73277006A4E27 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2FFB158D1AA73277006A4E27 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -414,6 +427,7 @@
 				2FFB159F1AA73277006A4E27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2FFB15A01AA73277006A4E27 /* Build configuration list for PBXNativeTarget "UICollectionView&customLayoutTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +436,7 @@
 				2FFB15A21AA73277006A4E27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
